@@ -1,0 +1,108 @@
+/* reseting the previous css  */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(/image/background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+
+.left{
+    /* to set the left box in left  */
+    position: absolute;
+    left: 40px;
+    top: 17px;
+    display: inline-block;
+    /* border: solid red 2px; */
+
+}
+.left img{
+    width: 60px;
+    border-radius: 50%;
+    border-left: 50px;
+    margin-left: 2px;
+}
+.lefttext{
+    text-align: center;
+    font-size: small;
+    margin-left: -5px;
+    
+}
+.mid{
+    /* to set any div into mid 3 condition should satisfy  */
+    display: block;
+    width: 33%;
+    margin: 20px auto; /* 12px from top and auto in x axis*/
+    /* border: solid white 2px; */
+
+}
+.right{
+    position: absolute;
+    top: 17px;
+    display: inline-block;
+    right: 34px;
+
+    /* border: solid yellow 2px; */
+    font-family: 'Baloo Bhai 2', cursive;
+    
+
+}
+.navbar li{
+    display: inline-block;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    /* to separate the texts  */
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn:hover{
+    background-color: rgb(130, 89, 130);
+
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    /* to appear hand sign after hover  */
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container{
+    border: 2px solid rgb(183, 201, 187);
+    margin: 165px 75px;
+    padding: 16px 75px;
+    border-radius: 20px;
+    width: 40%;
+}
+.container h1{
+    text-align: center;
+}
+.formgroup input{
+    /* to fix placeholder in center  */
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 3px auto;
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: auto;
+    width: 50%;
+}
